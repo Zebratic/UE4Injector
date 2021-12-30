@@ -35,7 +35,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpReser
 ```
 
 # main.cpp Logs:
-// Github: https://github.com/Zebratic
+#### Github: https://github.com/Zebratic
 // Discord: Zebratic#6969 <@811372110157053953>
 
 // Zebratic's notes here;
