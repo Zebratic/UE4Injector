@@ -11,9 +11,9 @@ I will NOT be continuing to work on this project, however, you are freely to use
 - Example: ``UE4injector.exe FortniteClient-Win64-Shipping.exe dxgi.dll cheat.dll``
 
 # Note
-Make sure the DLL your loading are checking for a "ul_reason_for_call".
-UE4Injector will give the call reason: "DLL_PROCESS_ATTACH"
-DLL Example:
+- Make sure the DLL your loading are checking for the "DWORD ul_reason_for_call" parameter.
+- UE4Injector will set "ul_reason_for_call" to "DLL_PROCESS_ATTACH", NOT A STRING
+- DLL Example:
 ```
 #include <windows.h>
 #include <stdlib.h>
