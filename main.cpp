@@ -13,12 +13,12 @@
 // Epic Games, Unreal Engine development team have already been sent this PoC source code so that they can patch their vulnerability.
 // But in response to my $5000 bug bounty i got notified that they WONT patch this vulnerability as it will break alot of games running on their engine.
 // But they have added checks to see if there has been injected any shell code into the game process.
-// However, this can EASILY be bypassed as shown in "hijack.cpp" at line 68!
+// However, this can EASILY be bypassed as shown in "hijack.cpp" at line 71!
 // Do what you want with this source code, but dont use it for bad intentions.
 // For the retards reading this, Build the project in Release x64, and you should not have any errors upon compiling.
 
 // Thanks again
-// Zebratic, the 15 year old danish Cyber Security Specialist
+// Zebratic, the 17 year old danish Cyber Security Specialist
 
 
 // 2021 note: I came back to this source code, and i checked a bit up on it for a buddy asking for help, Ectophile#9906, your welcome.
