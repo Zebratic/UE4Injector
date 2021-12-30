@@ -16,6 +16,11 @@ Do not contact me asking me to update this library, I will NOT be continuing to 
 2. Run ``UE4injector.exe (ProcesName.exe) (SurfaceLibrary.dll) (CustomLibrary.dll)``
 - Example: ``UE4injector.exe FortniteClient-Win64-Shipping.exe dxgi.dll cheat.dll``
 
+# Understanding the code
+- I have been somewhat decent in writing a few comments about what the code does, and is doing.
+- Its not perfect, but it is simply to get a quick understanding on how the vulnerability works, and how its utilized.
+- Sorry that i was too lazy to not write comments in "map.cpp", i appearently didnt do so in 2018.
+
 # Note
 - Make sure the DLL your loading are checking for the "DWORD ul_reason_for_call" parameter.
 - UE4Injector will set "ul_reason_for_call" to "DLL_PROCESS_ATTACH", NOT A STRING
@@ -34,7 +39,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpReser
 }
 ```
 
-# main.cpp Logs:
+# main.cpp logs:
 ```
 // Github: https://github.com/Zebratic
 // Discord: Zebratic#6969 <@811372110157053953>
