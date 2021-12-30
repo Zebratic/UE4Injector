@@ -5,6 +5,12 @@
 This source code is from 2018, but is still functional in 2021, for most UE4 games that have not implemented a manual patch for the vulnerability.
 Do not contact me asking me to update this library, I will NOT be continuing to work on this project, however, you are freely to use my work, as long as im credited.
 
+# Compiling
+- Recommended to compile in Visual Studio 2019-2022
+- Compile in **Release** as **x64**
+- Output executable can be found in: ....\x64\Release\UE4Injector.exe
+- Only the executable is needed for it to run successfully, any other file is temporary files and are not needed.
+
 # Usage
 1. Executable REQUIRES Admin privileges!
 2. Run ``UE4injector.exe (ProcesName.exe) (SurfaceLibrary.dll) (CustomLibrary.dll)``
