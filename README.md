@@ -23,6 +23,7 @@ Do not contact me asking me to update this library, I will NOT be continuing to 
 2. Run ``UE4injector.exe (ProcesName.exe) (SurfaceLibrary.dll) (CustomLibrary.dll)`` in either cmd or a bat file.
 - Example: ``UE4injector.exe FortniteClient-Win64-Shipping.exe dxgi.dll cheat.dll``
 - You can also build a shell around the injector and use it as a loader, as most game cheats are doing.
+- Such as a simple exe running the code like "system(UE4injector.exe FortniteClient-Win64-Shipping.exe dxgi.dll cheat.dll);" in a C++ binary.
 
 # Note
 - Make sure the DLL your loading are checking for the **"DWORD ul_reason_for_call"** parameter.
