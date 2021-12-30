@@ -15,7 +15,7 @@ Do not contact me asking me to update this library, I will NOT be continuing to 
 - Make sure you have set **C++ Language Standard** to **"Default (ISO C++14 Standard)"**
 - Make sure you have set **Enable Incremental Linking** to **"Yes"**
 - Compile in **Release** as **x64**
-- Output executable can be found in: ....\x64\Release\UE4Injector.exe
+- Output executable can be found in: ....**\x64\Release\UE4Injector.exe**
 - Only the executable is needed for it to run successfully, any other file is temporary files and are not needed.
 
 # Usage
@@ -41,7 +41,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpReser
 }
 ```
 
-# main.cpp logs:
+# main.cpp logs
 ```
 Github: https://github.com/Zebratic
 Discord: Zebratic#6969 <@811372110157053953>
