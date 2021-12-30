@@ -3,7 +3,7 @@
 
 # NO LONGER IN DEVELOPMENT
 This source code is from 2018, but is still functional in 2021, for most UE4 games that have not implemented a manual patch for the vulnerability.
-I will NOT be continuing to work on this project, however, you are freely to use my work, as long as im credited.
+Do not contact me asking me to update this library, I will NOT be continuing to work on this project, however, you are freely to use my work, as long as im credited.
 
 # Usage
 1. Executable REQUIRES Admin privileges!
@@ -13,6 +13,7 @@ I will NOT be continuing to work on this project, however, you are freely to use
 # Note
 - Make sure the DLL your loading are checking for the "DWORD ul_reason_for_call" parameter.
 - UE4Injector will set "ul_reason_for_call" to "DLL_PROCESS_ATTACH", NOT A STRING
+
 ### DLL Example:
 ```
 #include <windows.h>
@@ -26,7 +27,6 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpReser
     return TRUE;
 }
 ```
-
 
 ## USE AT OWN RISK
 I as in Zebratic, is in no way responsible for any damage that could have been done to your PC/Game/Account!
