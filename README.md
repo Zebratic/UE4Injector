@@ -19,8 +19,8 @@ Do not contact me asking me to update this library, I will NOT be continuing to 
 - Only the executable is needed for it to run successfully, any other file is temporary files and are not needed.
 
 # Usage
-1. Executable REQUIRES Admin privileges!
-2. Run ``UE4injector.exe (ProcesName.exe) (SurfaceLibrary.dll) (CustomLibrary.dll)``
+1. **Executable REQUIRES Admin Privileges!**
+2. Run ``UE4injector.exe (ProcesName.exe) (SurfaceLibrary.dll) (CustomLibrary.dll)`` in either cmd or a bat file.
 - Example: ``UE4injector.exe FortniteClient-Win64-Shipping.exe dxgi.dll cheat.dll``
 
 # Note
