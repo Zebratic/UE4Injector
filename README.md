@@ -5,6 +5,11 @@
 This source code is from 2018, but is still functional in 2021, for most UE4 games that have not implemented a manual patch for the vulnerability.
 Do not contact me asking me to update this library, I will NOT be continuing to work on this project, however, you are freely to use my work, as long as im credited.
 
+# Understanding the code
+- I have been somewhat decent in writing a few comments about what the code does, and is doing.
+- Its not perfect, but it is simply to get a quick understanding on how the vulnerability works, and how its utilized.
+- Sorry that i was too lazy to not write comments in "map.cpp", i appearently didnt do so in 2018.
+
 # Compiling
 - Recommended to compile in Visual Studio 2019-2022
 - Compile in **Release** as **x64**
@@ -15,11 +20,6 @@ Do not contact me asking me to update this library, I will NOT be continuing to 
 1. Executable REQUIRES Admin privileges!
 2. Run ``UE4injector.exe (ProcesName.exe) (SurfaceLibrary.dll) (CustomLibrary.dll)``
 - Example: ``UE4injector.exe FortniteClient-Win64-Shipping.exe dxgi.dll cheat.dll``
-
-# Understanding the code
-- I have been somewhat decent in writing a few comments about what the code does, and is doing.
-- Its not perfect, but it is simply to get a quick understanding on how the vulnerability works, and how its utilized.
-- Sorry that i was too lazy to not write comments in "map.cpp", i appearently didnt do so in 2018.
 
 # Note
 - Make sure the DLL your loading are checking for the "DWORD ul_reason_for_call" parameter.
