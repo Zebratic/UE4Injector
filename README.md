@@ -2,7 +2,7 @@
  Unreal Engine 4 vulnerability, that allows you to run shellcode directly into the target game process.
 
 # NO LONGER IN DEVELOPMENT
-This source code is from 2018, but is still functional in 2021, for most UE4 games that have not implemented a manual patch for the vulnerability.
+This source code is from 2018, but is still functional in 2022, for most UE4 games that have not implemented a manual patch for the vulnerability.
 Do not contact me asking me to update this library, I will NOT be continuing to work on this project, however, you are freely to use my work, as long as im credited.
 
 # Understanding the code
@@ -66,7 +66,7 @@ Thanks again
 Zebratic, the 17 year old danish Cyber Security Specialist
 
 
-2021 note: I came back to this source code, and i checked a bit up on it for a buddy asking for help, Ectophile#9906, your welcome.
+2022 note: I came back to this source code, and i checked a bit up on it for a buddy asking for help, Ectophile#9906, your welcome.
 I can confirm that this still fully works, but still needs a hijacked driver to run, but it all still fully works on most games.
 Detection wise im not sure how it will be after 4 years of Epic Games' notice of the vulnerability.
 But so far, im making this PoC source code PUBLIC on github available for everyone to use.
