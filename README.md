@@ -63,7 +63,7 @@ Do what you want with this source code, but dont use it for bad intentions.
 For the retards reading this, Build the project in Release x64, and you should not have any errors upon compiling.
 
 Thanks again
-Zebratic, the 17 year old danish Cyber Security Specialist
+Zebratic, the 18 year old danish Cyber Security Specialist
 
 
 2022 note: I came back to this source code, and i checked a bit up on it for a buddy asking for help, Ectophile#9906, your welcome.
