@@ -30,7 +30,7 @@ Do not contact me asking me to update this library, I will NOT be continuing to 
 - UE4Injector will set **"ul_reason_for_call"** to **"DLL_PROCESS_ATTACH"**, _**NOT A STRING**_
 
 ### DLL Example:
-```
+```cpp
 #include <windows.h>
 #include <stdlib.h>
 
